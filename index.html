@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header">
+        <h1 style="text-align: center; color: #000000;">HUSSEIN M KASSANGA (U21-516-0117) OIT 237, ASSIGNMENT 1 & 2  (LEVEL TWO)</h1>
+    </header>
+
+    <!-- Personal Information Section -->
+    <section id="personal-info" class="section">
+        <div class="container">
+            <h2>Personal Information</h2>
+            <p><strong>Name:</strong> HUSSEIN MAULID KASSANGA (U21-516-0117)</p>
+            <p><strong>From:</strong> Dar es Salaam, Tanzania</p>
+            <p><strong>Email:</strong> hussein.mk.1@outlook.com</p>
+        </div>
+    </section>
+
+    <!-- Hobbies and Favorite Links Section -->
+    <section id="hobbies-links" class="section">
+        <div class="container">
+            <h2>Hobbies</h2>
+            <ul>
+                <li><a href="#photography">Traveling</a></li>
+                <li>Watching Movies</li>
+                <li>Coding</li>
+            </ul>
+
+            <h3>Favorite Links</h3>
+            <p><a href="https://www.out.ac.tz" target="_blank">Open University of Tanzania</a></p>
+            <p><a href="https://www.out.ac.tz/programe/department-of-ict/" target="_blank">ICT Department Home Page</a></p>
+        </div>
+    </section>
+
+    <!-- Favorite Quote Section -->
+    <section id="favorite-quote" class="section">
+        <div class="container">
+            <h2>Favorite Quote</h2>
+            <blockquote style="font-style: italic; color: #333;">
+                "I'm the king of the world!" — 1997 Titanic Movie
+            </blockquote>
+        </div>
+    </section>
+
+    <!-- Top-ten Favorite CDs Section -->
+    <section id="top-ten-cds" class="section">
+        <div class="container">
+            <h2>My Top-ten Favorite CDs</h2>
+            <ol>
+                <li>Come On Over - Shania Twain</li>
+                <li>Thriller — Michael Jackson</li>
+                <li>Hotel California - Eagles</li>
+                <li>Rainbow Connection — The Muppet Show</li>
+                <li>The Dark Side of the Moon - Pink Floyd</li>
+                <li>Dangerous - Michael Jackson</li>
+                <li>Nervermind - Nirvana</li>
+                <li>Songs in the Key of Life — Stevie Wonder</li>
+                <li>Supernatural - Santana</li>
+                <li>Fusion — Chick Corea</li>
+            </ol>
+        </div>
+    </section>
+
+    <!-- Contact Information Section -->
+    <footer id="contact" class="section">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>For any enquiries, kindly contact me through:</p>
+            <ul>
+                <li><a href="mailto:hussein.mk.1@outlook.com">Email: hussein.mk.1@outlook.com</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JavaScript for Displaying Location and Last Modification Date -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            var dateTime = new Date();
+            document.getElementById('location-date').innerText = "Location: Dar es Salaam, Tanzania | Last Modified: " + dateTime.toLocaleString();
+        });
+    </script>
+
+    <!-- Table Section -->
+    <section id="table-section" class="section">
+        <div class="container">
+            <h2>Table of My Hobbies</h2>
+            <table style="width: 100%; border-collapse: collapse;">
+                <tr>
+                    <th>Hobby</th>
+                    <th>Description</th>
+                </tr>
+                <tr>
+                    <td>Photography</td>
+                    <td><p>Taking high-quality photos and exploring the beauty of nature.</p></td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Images Section -->
+    <section id="images-section" class="section">
+        <div class="container">
+            <h2>Images</h2>
+            <img src="Tanzania.png" alt="Tanzania" style="width: 100%; max-width: 600px; height: auto;">
+            <p><a href="https://www.out.ac.tz" target="_blank">Open University of Tanzania</a></p>
+        </div>
+    </section>
+
+    <!-- Internal Link Example -->
+    <h3 id="photography">Photography</h3>
+    <p>My passion for photography allows me to capture moments that last a lifetime. Visit the <a href="#photography">Photography Section</a> to learn more.</p>
+</body>
+</html>
